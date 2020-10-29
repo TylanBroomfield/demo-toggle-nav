@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,55 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-    
+    <header>
+        <div class="flex-container">
+            <h1><a href="index.html">Responsive Web Design</a></h1>
+            <button class="tgl-btn">
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20"></rect>
+                    <rect y="30" width="100" height="20"></rect>
+                    <rect y="60" width="100" height="20"></rect>
+                </svg>
+            </button>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <p>Responive Web Design</p>
+        <h2>Toggle Nav</h2>
+
+        <div class="gallery">
+            <div class="thumbnail">
+                <span>New</span>
+                <img src="img/cabin.jpg" alt="cabin">
+            </div>
+            <div class="thumbnail">
+                <img src="img/frozen-bubble.jpg" alt="frozen Bubbble">
+            </div>
+            <div class="thumbnail">
+                <img src="img/snowy-bridge.jpg" alt="snowy bridge">
+            </div>
+            <div class="thumbnail">
+                <img src="img/winter-street.jpg" alt="winter street">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- link to the js file here, right before the /body tag -->
+    <script src="/js/main.js"></script>
 </body>
+
 </html>
